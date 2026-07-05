@@ -1,4 +1,6 @@
 Hi there, all the analysis codes are as such:
+
+Step-1 (Importing libraries)
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,6 +10,7 @@ pandas is used to work with datasets like tables.
 numpy is used for numerical calculations.
 matplotlib is used to create charts and graphs.
 
+Step-2 (Loading the dataset)
 If the dataset is a CSV file, we use:
 df = pd.read_csv("dataset.csv")
 
@@ -20,3 +23,16 @@ A DataFrame is like a table in Excel. It has rows and columns.
 Example:
 
 df = pd.read_csv("sales_data.csv")
+
+Step 3: Display the first few rows
+After loading the dataset, we should check if the data has loaded correctly.
+
+df.head()
+
+head() shows the first 5 rows of the dataset.
+
+To show the first 10 rows:
+
+df.head(10)
+
+This helps us quickly understand what the dataset looks like.
