@@ -1,1 +1,22 @@
 Hi there, all the analysis codes are as such:
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+Notes:- 
+pandas is used to work with datasets like tables.
+numpy is used for numerical calculations.
+matplotlib is used to create charts and graphs.
+
+If the dataset is a CSV file, we use:
+df = pd.read_csv("dataset.csv")
+
+If the dataset is an Excel file, we use:
+df = pd.read_excel("dataset.xlsx")
+
+Here, df means DataFrame.
+A DataFrame is like a table in Excel. It has rows and columns.
+
+Example:
+
+df = pd.read_csv("sales_data.csv")
